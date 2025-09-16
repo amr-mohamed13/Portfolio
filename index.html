@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎮 Amr Mohamed - Biomedical Engineering Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  
+  <!-- Pixel Background Elements -->
+  <div class="pixel-background">
+    <div class="pixel-grid"></div>
+    <div class="floating-pixels">
+      <div class="pixel-star star-1"></div>
+      <div class="pixel-star star-2"></div>
+      <div class="pixel-star star-3"></div>
+      <div class="pixel-star star-4"></div>
+      <div class="pixel-star star-5"></div>
+      <div class="pixel-star star-6"></div>
+    </div>
+    <div class="ambient-particles"></div>
+    
+    <!-- Energy Waves -->
+    <div class="energy-waves">
+      <div class="wave wave-1"></div>
+      <div class="wave wave-2"></div>
+      <div class="wave wave-3"></div>
+    </div>
+    
+    <!-- Matrix Rain Effect -->
+    <div class="matrix-rain" id="matrixRain"></div>
+    
+    <!-- Floating Programming Elements -->
+    <div class="floating-elements">
+      <div class="floating-icon" data-icon="&lt;/&gt;">&lt;/&gt;</div>
+      <div class="floating-icon" data-icon="{ }">{ }</div>
+      <div class="floating-icon" data-icon="&lt;?&gt;">&lt;?&gt;</div>
+      <div class="floating-icon" data-icon="[ ]">[ ]</div>
+      <div class="floating-icon" data-icon="( )">( )</div>
+      <div class="floating-icon" data-icon="&lt;div&gt;">&lt;div&gt;</div>
+    </div>
+  </div>
+
+  <!-- Navigation Menu -->
+  <nav class="pixel-nav">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">Amr Mohamed</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-controls">
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Home Section -->
+    <section id="home" class="section">
+      <div class="section-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              <span class="title-line">Hello, I'm</span>
+              <span class="title-name">Amr Mohamed</span>
+              <span class="title-subtitle">Biomedical Engineering Student</span>
+            </h1>
+            <p class="hero-description">
+              Ambitious Biomedical Engineering student with a strong academic foundation and a growing passion for software development. 
+              Currently expanding technical skills in programming and data analysis, with a keen interest in applying software solutions to healthcare challenges.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary" onclick="scrollToSection('#projects'); return false;">
+                <i class="fas fa-rocket"></i>
+                View Projects
+              </a>
+              <a href="#contact" class="btn btn-secondary" onclick="scrollToSection('#contact'); return false;">
+                <i class="fas fa-paper-plane"></i>
+                Get In Touch
+              </a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Years</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Dedicated</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="photo-container">
+              <div class="photo-frame">
+                <img src="WhatsApp Image 2025-08-29 at 00.43.48_bcb6bc5b.jpg" alt="Amr Mohamed" class="profile-photo">
+                <div class="photo-overlay"></div>
+              </div>
+              <div class="photo-decoration">
+                <div class="pixel-corner top-left"></div>
+                <div class="pixel-corner top-right"></div>
+                <div class="pixel-corner bottom-left"></div>
+                <div class="pixel-corner bottom-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-subtitle">Biomedical Engineering & Software Development</div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <div class="about-card creative-card">
+              <h3>Profile</h3>
+              <p>
+                Committed to continuous learning, with a proactive attitude and a solid track record of collaboration through student initiatives and interdisciplinary projects. 
+                Passionate about applying software solutions to healthcare challenges and improving patient care through technology.
+              </p>
+            </div>
+            <div class="about-card creative-card">
+              <h3>Education</h3>
+              <div class="education-info">
+                <h4>CAIRO UNIVERSITY</h4>
+                <p class="degree">B.Sc in Engineering - Biomedical Engineering</p>
+                <p class="grade">Cumulative Grade: Very Good</p>
+                <p class="location">Giza, Egypt</p>
+              </div>
+            </div>
+            <div class="about-card creative-card">
+              <h3>Activities</h3>
+              <div class="activities-list">
+                <div class="activity-item">
+                  <h4><i class="fas fa-users"></i> ENACTUS CAIRO UNIVERSITY</h4>
+                  <p>Projects Team Member (Dec 2024 - Present)</p>
+                  <p>Responsible for researching and identifying societal needs, exploring innovative solutions to solve challenges, 
+ and transforming ideas into real sustainable entrepreneurial projects that leave an impact on our society.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <h2 class="section-title">Experience</h2>
+          <div class="section-subtitle">Professional Journey</div>
+        </div>
+        <div class="experience-content">
+          <div class="experience-card creative-card featured">
+            <div class="experience-header">
+              <div class="experience-badge">Current</div>
+              <div class="experience-links">
+                <a href="#" class="experience-link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="experience-content">
+              <h3>Biomedical Engineering Intern</h3>
+              <h4>NATIONAL ACADEMY OF INFORMATION TECHNOLOGY FOR PERSONS WITH DISABILITIES (NAID)</h4>
+              <p class="experience-period">Jul 2025 - Sep 2025</p>
+              <p class="experience-location">Giza, Egypt</p>
+              <ul class="experience-details">
+                <li>Participating in structured training covering biomedical and assistive technology topics</li>
+                <li>Working with EEG (wet and dry), ECG, EMG, IMUs, ultrasound, and thermal imaging</li>
+                <li>Studying neuro modeling, brain simulation, and computational modeling for healthcare</li>
+                <li>Learning assistive technology standards and product design methodologies</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-card creative-card">
+            <div class="experience-header">
+              <div class="experience-links">
+                <a href="#" class="experience-link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="experience-content">
+              <h3>AI and Data Science</h3>
+              <h4>Digital Egypt Pioneers Initiative (DEPI)</h4>
+              <p class="experience-period">Jul 2025 - Present</p>
+              <p class="experience-location">Egypt</p>
+              <ul class="experience-details">
+                <li>Participating in advanced AI and data science training program</li>
+                <li>Developing skills in machine learning and data analysis</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <h2 class="section-title">Projects</h2>
+          <div class="section-subtitle">Technical Creations</div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card creative-card featured">
+            <div class="project-header">
+              <div class="project-badge">Featured</div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Healthcare Management System</h3>
+              <p>Comprehensive healthcare management platform for obstetricians and gynecologists featuring patient-doctor appointment scheduling, medical history tracking, and prescription management.</p>
+              <div class="project-tech">
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Prisma ORM</span>
+                <span class="tech-tag">JWT</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <div class="project-stats">
+                <span><i class="fas fa-calendar"></i> May 2025 - Present</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card creative-card">
+            <div class="project-header">
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/amr-mohamed13/Stock-Managment-System.git" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Stock Management System</h3>
+              <p>Stock management system integrating JavaFX GUIs with MySQL databases. Implemented user authentication, account management, stock trading, and transaction tracking.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">JavaFX</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <div class="project-stats">
+                <span><i class="fas fa-calendar"></i> May 2024</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card creative-card">
+            <div class="project-header">
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/amr-mohamed13/Bow-and-Arrow-game.git" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Bow and Arrow Game</h3>
+              <p>2D archery simulation featuring two difficulty levels, realistic arrow physics, and a dynamic scoring system with collision detection and sound integration.
+            </p>
+              <div class="project-tech">
+                <span class="tech-tag">Processing</span>
+                <span class="tech-tag">Java</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <div class="project-stats">
+                <span><i class="fas fa-calendar"></i> Jan 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <h2 class="section-title">Skills & Technologies</h2>
+          <div class="section-subtitle">Technical & Soft Skills</div>
+        </div>
+        <div class="skills-content">
+          <div class="skills-categories">
+            <div class="skill-category">
+              <h3><i class="fas fa-code"></i> Programming Languages</h3>
+              <div class="skill-grid">
+                <div class="skill-item">Java</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">C++</div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3><i class="fas fa-globe"></i> Web Development</h3>
+              <div class="skill-grid">
+                <div class="skill-item">HTML/CSS</div>
+                <div class="skill-item">React.js</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Express.js</div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3><i class="fas fa-database"></i> Database & Others</h3>
+              <div class="skill-grid">
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">Data Structures</div>
+                <div class="skill-item">Algorithms</div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3><i class="fas fa-users"></i> Soft Skills</h3>
+              <div class="soft-skills-grid">
+                <div class="soft-skill">Project Management</div>
+                <div class="soft-skill">Communication</div>
+                <div class="soft-skill">Teamwork</div>
+                <div class="soft-skill">Problem Solving</div>
+                <div class="soft-skill">Adaptability</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-subtitle">Let's Connect!</div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card creative-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Giza, Egypt</p>
+              </div>
+            </div>
+            <div class="contact-card creative-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p><a href="tel:+201026441304">(+20) 102 644 1304</a></p>
+              </div>
+            </div>
+            <div class="contact-card creative-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p><a href="mailto:amr778776@gmail.com">amr778776@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="contact-card creative-card">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-details">
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/amr-mohamed13" target="_blank">amr-mohamed13</a></p>
+              </div>
+            </div>
+            <div class="contact-card creative-card">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="contact-details">
+                <h3>LinkedIn</h3>
+                <p><a href="https://www.linkedin.com/in/amr-mohamed13" target="_blank">amr-mohamed13</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="pixel-footer">
+    <div class="footer-content">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <span class="logo-text">Amr Mohamed</span>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/amr-mohamed13" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/amr-mohamed13" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:amr778776@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-pixels">
+          <div class="mini-pixel"></div>
+          <div class="mini-pixel"></div>
+          <div class="mini-pixel"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
